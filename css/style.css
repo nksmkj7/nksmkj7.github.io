@@ -2766,7 +2766,7 @@ input.checkbox:checked:after {
   border-right: 5px solid rgba(0, 0, 0, 0.6);
 }
 .form-module .form {
-  display: none;
+  /* display: none; */
   padding: 40px;
 }
 .form-module .form:nth-child(2) {

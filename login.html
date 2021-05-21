@@ -126,7 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<ul>
 				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.html">Home</a><span>|</span></li>
-				<li>Sign In & Sign Up</li>
+				<li>Sign </li>
 			</ul>
 		</div>
 	</div>
@@ -134,7 +134,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- banner -->
 	<div class="banner">
 		<div class="w3l_banner_nav_left">
-		<nav class="navbar nav_bottom">
+			<nav class="navbar nav_bottom">
 			 <!-- Brand and toggle get grouped for better mobile display -->
 			  <div class="navbar-header nav_2">
 				  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
@@ -148,19 +148,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav nav_1">
 						<li><a href="products.html">Branded Foods</a></li>
-						<li><a href="household.html">Households</a></li>
+						<!-- <li><a href="household.html">Households</a></li> -->
 						<li class="dropdown mega-dropdown active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Veggies & Fruits<span class="caret"></span></a>				
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>	
 										<li><a href="vegetables.html">Vegetables</a></li>
-										<li><a href="vegetables.html">Fruits</a></li>
+										<!-- <li><a href="vegetables.html">Fruits</a></li> -->
 									</ul>
 								</div>                  
 							</div>				
 						</li>
-						<li><a href="kitchen.html">Kitchen</a></li>
+						<!-- <li><a href="kitchen.html">Kitchen</a></li>
 						<li><a href="short-codes.html">Short Codes</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Beverages<span class="caret"></span></a>
@@ -172,8 +172,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</div>                  
 							</div>	
-						</li>
-						<li><a href="pet.html">Pet Food</a></li>
+						</li> -->
+						<!-- <li><a href="pet.html">Pet Food</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Frozen Foods<span class="caret"></span></a>
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
@@ -185,7 +185,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>                  
 							</div>	
 						</li>
-						<li><a href="bread.html">Bread & Bakery</a></li>
+						<li><a href="bread.html">Bread & Bakery</a></li> -->
 					</ul>
 				 </div><!-- /.navbar-collapse -->
 			</nav>
@@ -193,12 +193,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="w3l_banner_nav_right">
 <!-- login -->
 		<div class="w3_login">
-			<h3>Sign In & Sign Up</h3>
+			<h3>Sign In</h3>
 			<div class="w3_login_module">
 				<div class="module form-module">
-				  <div class="toggle"><i class="fa fa-times fa-pencil"></i>
+				  <!-- <div class="toggle"><i class="fa fa-times fa-pencil"></i>
 					<div class="tooltip">Click Me</div>
-				  </div>
+				  </div> -->
 				  <div class="form">
 					<h2>Login to your account</h2>
 					<form action="#" method="post">
@@ -207,7 +207,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  <input type="submit" value="Login">
 					</form>
 				  </div>
-				  <div class="form">
+				  <!-- <div class="form">
 					<h2>Create an account</h2>
 					<form action="#" method="post">
 					  <input type="text" name="Username" placeholder="Username" required=" ">
@@ -216,11 +216,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  <input type="text" name="Phone" placeholder="Phone Number" required=" ">
 					  <input type="submit" value="Register">
 					</form>
-				  </div>
-				  <div class="cta"><a href="#">Forgot your password?</a></div>
+				  </div> -->
+				  <div class="cta"><a href="#">Forgot your password?</a><br>or<br><a href="signup.html">Create account</a></div>
 				</div>
 			</div>
-			<script>
+			<!-- <script>
 				$('.toggle').click(function(){
 				  // Switches the Icon
 				  $(this).children('i').toggleClass('fa-pencil');
@@ -232,7 +232,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					opacity: "toggle"
 				  }, "slow");
 				});
-			</script>
+			</script> -->
 		</div>
 <!-- //login -->
 		</div>
@@ -404,10 +404,10 @@ $(document).ready(function(){
 				total += items[i].get('quantity');
 			}
 
-			if (total < 3) {
-				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
-				evt.preventDefault();
-			}
+			// if (total < 3) {
+			// 	alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+			// 	evt.preventDefault();
+			// }
 		});
 
 	</script>
