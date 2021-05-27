@@ -2418,7 +2418,8 @@ var currencies = {
 
 
 module.exports = function currency(amount, config) {
-    var code = config && config.currency || 'USD',
+  // var code = config && config.currency || 'USD',
+      var code = 'AUD',
         value = currencies[code],
         before = value.before || '',
         after = value.after || '',

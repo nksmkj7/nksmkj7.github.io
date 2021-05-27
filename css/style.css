@@ -486,6 +486,7 @@ ul.dropdown-menu.drp-mnu li a i {
     position: absolute;
     top: -1%;
     right: 10%;
+	display:none;
 }
 .top-brands h3,.fresh-vegetables h3,.mail h3,.testimonials h3,.w3_login h3,.w3ls_w3l_banner_nav_right_grid h3,h3.title,.faq h3,.services h3,.about h3,.team h3,.events h3{
 	text-align:center;
@@ -513,6 +514,7 @@ ul.dropdown-menu.drp-mnu li a i {
 	position:absolute;
 	top:0%;
 	left:0%;
+	display: none
 }
 .agile_top_brand_left_grid1{
 	padding:1em;
@@ -541,7 +543,7 @@ ul.dropdown-menu.drp-mnu li a i {
 }
 .agile_top_brand_left_grid1 h4 span,.agileinfo_single_right_snipcart h4 span{
 	font-weight:300;
-	text-decoration:line-through;
+	/* text-decoration:line-through; */
 	padding-left:1em;
 }
 /*-- cart --*/
@@ -1656,9 +1658,22 @@ section#tables  p {
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
 	font-size: 0.9em;
-	color: #999;
+	color: rgb(20, 20, 20);
 	border-top: none !important;
 }
+
+.hor_1
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+	font-size: 0.9em;
+	color: rgb(10, 10, 10);
+	border-top: none !important;
+}
+
 .tab-content > .active {
 	display: block;
 	visibility: visible;
@@ -2529,7 +2544,7 @@ td.invert-image a img {
     width: 40px;
 	height:40px;
     padding: 8px 0px;
-    color: #A9A9A9;
+    /* color: #A9A9A9; */
     line-height: 24px;
     border: 1px solid #E5E5E5;
     background-color: #E5E5E5;
